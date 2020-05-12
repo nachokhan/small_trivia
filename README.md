@@ -1,10 +1,16 @@
-# first_app
+# Small Trivia
 
-A new Flutter project.
+This is my "Trivia" project in Flutter/Dark to practice and learn about these tools.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is simple trivia game for learning main aspects of Flutter.
+At the same time I learn some Dart.
+
+Feel free to comment, ask, or whatever.
+Feel free to use the code if it helps you in anyway :)
+
+## Flutter Resources
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -14,4 +20,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-# small_trivia
+
