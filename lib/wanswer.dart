@@ -3,9 +3,8 @@ import 'package:flutter/material.dart';
 class WAnswer extends StatelessWidget {
   final String answerText;
   final Function onPressFunc;
-  final int whichAnswerAmI;
 
-  WAnswer(this.answerText, this.whichAnswerAmI, this.onPressFunc);
+  WAnswer(this.answerText, this.onPressFunc);
 
   @override
   Widget build(BuildContext context) {
