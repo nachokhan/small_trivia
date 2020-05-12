@@ -35,6 +35,10 @@ class Questionnaire {
     questions.add(Question(q, a, cA));
   }
 
+  int getLength() {
+    return questions.length;
+  }
+
   Question getQuestion(int index) {
     if (index >= questions.length) {
       throw Exception("Index exceds questions!");
