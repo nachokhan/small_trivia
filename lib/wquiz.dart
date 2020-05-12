@@ -36,7 +36,7 @@ class WQuiz extends StatelessWidget {
     var answers = question.answers;
     var wans = List<WAnswer>();
     for (int i = 0; i < answers.length; i++) {
-      var an = WAnswer(answers[i], i + 1, buttonPressed);
+      var an = WAnswer(answers[i], i + 1, () => buttonPressed(i+1));
       wans.add(an);
     }
     return wans;
